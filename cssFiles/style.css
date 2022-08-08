@@ -1,0 +1,80 @@
+/* M E D I A */
+@media screen and (max-width: 780px ){
+    #container{
+        
+    }
+}
+
+/* C S S */
+body{
+    background-color: black;
+}
+
+#container{
+    background-image: url("/assets/images/couch2.jpg");
+    border-spacing:50rem;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 1500px;
+}
+
+#header{
+    background-image: url("/assets/images/couch1.jpg");
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 96%;
+    margin-left: 2%;
+}
+
+.txt1{
+    margin-top: 1%;
+    text-align: center;
+    font-size: 37px;
+    color: rgb(235, 239, 240);
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    background-color: rgba(145, 104, 211, 0.164);
+    color:rgb(248, 239, 239);
+    border: 20px solid red;
+    border-radius: 20%;
+    font-size: 34px;
+    display: flex;
+    margin-right:1%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+
+#navBttn{
+    color: rgb(184, 242, 253);
+    display: flex;
+    gap: 20%;
+    font-size: x-large;
+    margin-right: 25%;
+    margin-top: 60px;
+}
+
+.crtrs{
+    text-align: center;
+    margin-top:9%;
+    color: white;
+    font-size: large;
+}
+
+.footer{
+    display: flex;
+    width: 78%;
+    margin-left: 11%;
+    background-color: rgba(0, 0, 0, 0.644);
+    /* background-image: url("/assets/images/couch1.jpg"); */
+    justify-content: space-around;
+    font-size: large;
+    align-content: center;
+    margin-top: 16%;
+    color: rgb(202, 178, 178);
+}

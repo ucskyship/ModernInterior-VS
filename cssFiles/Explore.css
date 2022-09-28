@@ -60,16 +60,6 @@ body{
     margin-left: 3%;
 }
 
-.txt1{
-    animation-duration: 7s;
-    margin-top: 1%;
-    text-align: center;
-    font-size: 33px;
-    color: rgb(235, 239, 240);
-    display: flex;
-    justify-content: space-around;
-}
-
 .logo{
     /* background-color: rgba(145, 104, 211, 0.164); */
     color:rgb(248, 239, 239);
@@ -100,16 +90,9 @@ body{
 
 a{
     text-decoration: none;
-    color: #ffff;
+ color: #ffff;
 }
 
-
-.crtrs{
-    text-align: center;
-    margin-top:12%;
-    color: white;
-    font-size: large;
-}
 
 .footer{
     display: flex;
